@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.bgContainer {
+  height: 100vh;
+  background-color: #fff;
+  padding: 20vh;
+}
+.innerContainer {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  height: 100%;
+  width: 100%;
+  border-radius: 4%;
+  font-family: Roboto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainHeading {
+  font-size: 50px;
+  font-weight: bold;
+}
+.para {
+  font-size: 40px;
+}
+
+.button {
+  padding: 20px 30px;
+  font-size: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.info {
+  font-size: 25px;
+}
